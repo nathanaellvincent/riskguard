@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vn-riskguard
+    runtime: docker
+    branch: main
+    plan: free
+    healthCheckPath: /api/stats
