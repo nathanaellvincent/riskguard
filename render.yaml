@@ -4,4 +4,4 @@ services:
     runtime: docker
     branch: main
     plan: free
-    healthCheckPath: /api/stats
+    healthCheckPath: /health
